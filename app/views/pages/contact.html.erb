@@ -1,1 +1,11 @@
 <h1>Contact</h1>
+
+<% members = %w[thanh dimitri germain damien julien] %>
+
+<ul>
+  <% members.each do |member| %>
+    <li>
+      <%= member %>
+    </li>
+  <% end %>
+</ul>
